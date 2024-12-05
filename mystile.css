@@ -1,0 +1,83 @@
+AuthName "mystile"
+AuthType Basic
+require valid-user
+AuthUserFile var/www/html
+
+body{
+background-color: none;
+margin: 2px;
+border: 2px
+}
+header{
+margin: 1px;
+border: 1px;
+padding:2em
+}
+div.operarios{
+display: list-inline;
+font-size: 16px; 
+font-family: fantasy, serif;
+margin: 5px;
+border: 1px
+}
+div.paragrafos{
+float:none;;
+font-family: fantasy, serif;
+font-size: 14px; 
+font: #000000
+}
+div.figuras{
+display: inline-block;
+text-align: center;
+margin: 5px;
+border: 5px;
+width: 180px;
+height: 120px;             
+text-align: center
+}
+div.acessorios{
+display: inline-block;
+margin: 10px;
+border: 5px;
+width: 100px;
+height: 60px;             
+text-align: center
+}
+div.aperto img{
+display: inline;
+align-self: center;
+height: 260px;
+width: 800px
+}
+div.aperto{
+float:none;
+padding: 10px 40px 80px 100px;
+margin: 0px;
+border: 30px;
+width: 150px; 
+height:200px
+}
+video{
+animation-play-state: running;
+margin: 2px;
+border: 2px;
+width: 200px;
+height: 150px;
+padding-top: 20px;
+padding-right: 80px;
+padding-bottom: 20px;
+padding-left: 80px
+}
+address{
+padding-top: 1px;
+padding-right: 2px;
+padding-bottom: 1px;
+padding-left: 2px
+ }
+footer{
+width: 100%;
+height: 60px;
+position: fixed;
+bottom: 2px;
+left: 2px
+}
