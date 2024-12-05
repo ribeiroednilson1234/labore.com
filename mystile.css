@@ -11,32 +11,32 @@ border: 2px
 header{
 margin: 1px;
 border: 1px;
-padding:2em
+padding: 2em
 }
 div.operarios{
-display: list-inline;
+display: inline;
 font-size: 16px; 
 font-family: fantasy, serif;
 margin: 5px;
 border: 1px
 }
 div.paragrafos{
-float:none;;
+float: none;
 font-family: fantasy, serif;
 font-size: 14px; 
 font: #000000
 }
 div.figuras{
-display: inline-block;
+display: inline;
 text-align: center;
 margin: 5px;
 border: 5px;
 width: 180px;
-height: 120px;             
+height: 110px;             
 text-align: center
 }
 div.acessorios{
-display: inline-block;
+display: inline;
 margin: 10px;
 border: 5px;
 width: 100px;
@@ -50,12 +50,12 @@ height: 260px;
 width: 800px
 }
 div.aperto{
-float:none;
-padding: 10px 40px 80px 100px;
+float: none;
+padding: 20px 40px 80px 100px;
 margin: 0px;
 border: 30px;
 width: 150px; 
-height:200px
+height: 200px
 }
 video{
 animation-play-state: running;
