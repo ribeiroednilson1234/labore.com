@@ -7,30 +7,30 @@ body{
 background-color: #000000;
 margin: 2px;
 border: 2px;
-padding: none
+padding: none;
 }
 caption{
 background-color: #000FFF;
 margin: 1px;
 border: 1px;
-padding: 5px 95px 5px 95px
+padding: 5px 95px 5px 95px;
 }
 section{
 background-color: #C0CFFF;
 margin: 1px;
 border: 1px;
-padding: 10px 90px 10px 90px
+padding: 10px 90px 10px 90px;
 }
 article{
 background-color: #FF0000;
 margin: 10px;
-padding: 10px 80px 10px 80px
+padding: 10px 80px 10px 80px;
 }
 aside{
 background-color: #66ccff;
 margin: 1px;
 border: 1px;
-padding: 20px 60px 20px 60px
+padding: 20px 60px 20px 60px;
 }
 footer{
 background-color: #ffffff;
@@ -39,5 +39,5 @@ width: 100%;
 height: 60px;
 position: fixed;
 bottom: 2px;
-left: 2px
+left: 2px;
 }
