@@ -6,25 +6,25 @@ AuthUserFile var/www/html
 body{
 background-color: none;
 margin: 2px;
-border: 2px
+border: 2px;
 }
 header{
 margin: 1px;
 border: 1px;
-padding: 2em
+padding: 2em;
 }
 div.operarios{
 display: list-inline;
 font-size: 16px; 
 font-family: monospace;
 margin: 5px;
-border: 1px
+border: 1px;
 }
 div.paragrafos{
 float: none;
 font-family: monospace;
 font-size: 14px; 
-font: #000000
+font: #000000;
 }
 div.figuras{
 display: list-inline;
@@ -33,7 +33,7 @@ margin: 5px;
 border: 5px;
 width: 160px;
 height: 110px;             
-text-align: center
+text-align: center;
 }
 div.acessorios{
 display: list-inline;
@@ -41,13 +41,13 @@ margin: 10px;
 border: 5px;
 width: 100px;
 height: 60px;             
-text-align: center
+text-align: center;
 }
 div.aperto img{
 display: middle;
 align-self: center;
 height: 260px;
-width: 800px
+width: 800px;
 }
 div.aperto{
 float: none;
@@ -55,7 +55,7 @@ padding: 20px 40px 80px 100px;
 margin: 0px;
 border: 35px;
 width: 150px; 
-height: 200px
+height: 200px;
 }
 video{
 animation-play-state: running;
@@ -66,18 +66,18 @@ height: 150px;
 padding-top: 20px;
 padding-right: 80px;
 padding-bottom: 20px;
-padding-left: 80px
+padding-left: 80px;
 }
 address{
 padding-top: 1px;
 padding-right: 2px;
 padding-bottom: 1px;
-padding-left: 2px
+padding-left: 2px;
  }
 footer{
 width: 100%;
 height: 60px;
 position: fixed;
 bottom: 2px;
-left: 2px
+left: 2px;
 }
