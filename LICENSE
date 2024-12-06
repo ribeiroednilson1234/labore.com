@@ -173,21 +173,22 @@ Leia abaixo o descricionario sobre a sua decisão.
       file or class name and description of purpose be included on the
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
-
-   Copyright [Ednilson Alves Ribeiro] [0.1. Definiçoes de uso
-
-My-License --> Web-Site Properly.
-Mas, Você pode utilizar a estrutura do códico e contribuir com o que puder;
-.Café
-.Dinheiro
-.Bem_comercializável.]
+<xhtml-dtd>
+   Copyright; class public MyLicese();[('Ednilson Alves Ribeiro')] [(<xml>"0.1. Definiçoes de uso
+<xml element>
+<tag>My-License --> Web-Site Properly.</tag>
+<element><tag>"Mas, Você pode utilizar a estrutura do códico e contribuir com o que puder;"</tag>
+<tag id=element>".Café"</tag
+<tag id=element>".Dinheiro"</tag>
+<tag id=element>".Bem_comercializável."</tag>
+</element></xml>)]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
        http://www.apache.org/licenses/LICENSE-2.0
-
+</xhtml>
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
