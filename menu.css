@@ -9,35 +9,33 @@ font-size: 20px;
 font: #FFFFFF;
 margin: 1px;
 border: 1px;
-padding: 2em
+padding: 2em;
 }
 ﻿﻿nav{
 bakground-color: #000000;
 display: list-inline-block;
 margin: 0%;
 border: 0%;
-padding: 20px 80px 20px 80px
+padding: 20px 80px 20px 80px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333
+    background-color: #333;
 }
-
 li {
-    float: left
+    float: left;
 }
-
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111
+    background-color: #111;
 }
