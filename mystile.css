@@ -13,7 +13,7 @@ margin: 1px;
 border: 1px;
 padding: 2em;
 }
-div.operarios{
+div.operarios ul{
 display: list-inline;
 font-size: 16px; 
 font-family: monospace;
@@ -26,16 +26,16 @@ font-family: monospace;
 font-size: 14px; 
 font: #000000;
 }
-div.figuras{
+div.figuras ul{
 display: list-inline;
 text-align: center;
 margin: 5px;
 border: 5px;
-width: 160px;
+width: 150px;
 height: 110px;             
 text-align: center;
 }
-div.acessorios{
+div.acessorios ul{
 display: list-inline;
 margin: 10px;
 border: 5px;
