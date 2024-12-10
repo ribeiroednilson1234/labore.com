@@ -64,7 +64,7 @@ border: 35px;
 width: 150px; 
 height: 200px;
 }
-video{
+div.video{
 animation-play-state: running;
 margin: 2px;
 border: 2px;
