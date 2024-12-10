@@ -20,7 +20,7 @@ font-family: monospace;
 margin: 5px;
 border: 1px;
 }
-div.paragrafos{
+div.paragrafos p{
 float: none;
 font-family: monospace;
 font-size: 14px; 
@@ -42,6 +42,13 @@ border: 5px;
 width: 100px;
 height: 60px;             
 text-align: center;
+}
+caption dl{
+ display: fixed;
+ padding: auto;
+ border: 1px;
+ margin: 1px;
+ font-size: 12px;
 }
 div.aperto img{
 display: middle;
