@@ -1,6 +1,6 @@
 name: Jekyll site CI
 
-on: labore.com
+on:
   push:
     branches: [ "principal" ]
   pull_request:
