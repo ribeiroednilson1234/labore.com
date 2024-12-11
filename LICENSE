@@ -174,14 +174,16 @@ Leia abaixo o descricionario sobre a sua decisão.
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 <xhtml-dtd>
-   Copyright; class public MyLicese();[('Ednilson Alves Ribeiro')] [(<xml>"0.1. Definiçoes de uso
-<xml element>
-<tag>My-License --> Web-Site Properly.</tag>
-<element><tag>"Mas, Você pode utilizar a estrutura do códico e contribuir com o que puder;"</tag>
-<tag id=element>".Café"</tag
-<tag id=element>".Dinheiro"</tag>
-<tag id=element>".Bem_comercializável."</tag>
-</element></xml>)]
+   Copyright; class public MyLiceseIdElement('xhtml-dtd');[('Ednilson Alves Ribeiro')] [(<xml>"0.1. Definiçoes de uso
+<element>
+        <tag>My-License --> Web-Site Properly.</tag>
+<element>
+        <tag>"Mas, Você pode utilizar a estrutura do códico e contribuir com o que puder;"</tag>
+<tag id="">".Café"</tag>
+<tag id="">".Dinheiro"</tag>
+<tag id="">".Bem_comercializável."</tag>
+</element></element>)]
+</xhml-dtd>
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
