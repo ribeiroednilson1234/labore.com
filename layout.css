@@ -1,0 +1,45 @@
+AuthName "layout"
+AuthType Basic
+require valid-user
+AuthUserFile var/www/html
+
+body{
+background-color: #000000;
+margin: 2px;
+border: 2px;
+padding: none;
+}
+caption{
+background-color: #000FFF;
+margin: 1px;
+border: 1px;
+padding: 5px 95px 5px 95px;
+}
+section{
+background-color: #C0CFFF;
+display: auto;
+margin: 1px;
+border: 0px;
+padding: 50px 90px 50px 90px;
+}
+article{
+background-color: #FF0000;
+margin: 1px;
+border: 0px;
+padding: 40px 80px 40px 80px;
+}
+aside{
+background-color: #66ccff;
+margin: 1px;
+border: 1px;
+padding: 20px 60px 20px 60px;
+}
+footer{
+background-color: #ffffff;
+font: #000000;
+width: 100%;
+height: 60px;
+position: fixed;
+bottom: 2px;
+left: 2px;
+}
