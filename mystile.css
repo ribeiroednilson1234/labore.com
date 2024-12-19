@@ -44,7 +44,7 @@ height: 60px;
 text-align: center;
 }
 caption form dl{
- display: fixed;
+ display: auto;
  padding: auto;
  border: 1px;
  margin: 1px;
