@@ -174,7 +174,7 @@ Leia abaixo o descricionario sobre a sua decisão.
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 <xhtml-dtd>
-   Copyright; class public MyLiceseIdElement('xhtml-dtd');[('Ednilson Alves Ribeiro')] [(<xml>"0.1. Definiçoes de uso
+   [Copyright]; {class public MyLicenseIdElement('xhtml-dtd');var xhtl-dtd=MyLicenceIdElement};[('Ednilson Alves Ribeiro')] [(<xml>"0.1. Definiçoes de uso
 <element>
         <tag>My-License --> Web-Site Properly.</tag>
 <element>
