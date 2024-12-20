@@ -1,0 +1,98 @@
+AuthName "mystile"
+AuthType Basic
+require valid-user
+AuthUserFile var/www/html
+
+body{
+background-color: none;
+margin: 2px;
+border: 2px;
+}
+header{
+margin: 1px;
+border: 1px;
+padding: 2em;
+}
+div class.operarios{
+background-color:#C0C0C0;
+display: grid;
+position: horizontal;
+font-size: 12px;  
+font-family: monospace;
+padding: -15px;
+margin: 1px;
+border: 1px;
+}
+class.paragrafos p{
+float: none;
+font-family: monospace;
+font-size: 14px; 
+font: #000000;
+}
+article div class.figuras{
+display: inline-block;
+padding: 60px;
+margin: 0px;
+border: 0px;
+width: 160px;
+height: 110px;             
+text-align: center;
+}
+article div class.acessorios{
+display: inline;
+padding: 60px;
+margin: 0px;
+border: 0px;
+width: 80px;
+height: 50px;             
+text-align: center;
+}
+caption form dl{
+ display: auto;
+ padding: none;
+ border: 1px;
+ margin: 1px;
+ font-size: 12px;
+}
+div class.aperto img{
+display: middle;
+align-self: center;
+padding: auto;
+height: 150px;
+width: 280px;
+}
+div class.aperto{
+position: top;
+display: grid;
+float: center;
+padding: 10px 40px 90px 100px;
+margin: -1px;
+border: 1px;
+height: 100px;
+width: 250px; 
+}
+div class.video{
+animation-play-state: running;
+margin: 2px;
+border: 2px;
+width: 200px;
+height: 150px;
+padding-top: 20px;
+padding-right: 80px;
+padding-bottom: 20px;
+padding-left: 80px;
+}
+address p{
+padding-top: 1px;
+padding-right: 2px;
+padding-bottom: 1px;
+padding-left: 2px;
+font:#000000;
+ }
+footer{
+width: 100%;
+height: 60px;
+position: fixed;
+bottom: 2px;
+left: 2px;
+}
