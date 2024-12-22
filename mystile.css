@@ -1,0 +1,134 @@
+AuthName "mystile"
+AuthType Basic
+require valid-user
+AuthUserFile var/www/html
+body{
+background-color:none;
+margin:2px;
+border:2px;
+}
+header h1{
+margin:0px;
+border:0px;
+padding:10px;
+}
+section {
+font-size:16px;
+position:middle;
+}
+article.operarios{
+background-color:#C0C0C0;
+display:grid;
+display:inline;
+position:middle;
+float:center;
+font-size:10px;  
+font-family:monospace;
+padding:-10px;
+margin:1px;
+border:1px;
+}
+section article.operarios+ul>li{
+display:grid;
+display:inline-block;
+position:middle;
+float:center;
+margin:2px;
+border:1px;
+padding:15px;
+}
+section article div class.paragrafos>p{
+float:none;
+font-family:monospace;
+font-size:14px; 
+font:#000000;
+}
+section article div class.figuras+img>figcaption{
+display:grid;
+display:inline-block;
+position:middle;
+float:center;
+padding:60px;
+margin:0px;
+border:0px;
+width:160px;
+height:129px;             
+text-align:center;
+font-family:monospace;
+}
+article div class.acessorios>img{
+display:grid;
+display:inline;
+position:middle;
+padding:60px;
+margin:12px;
+border:0px;
+width:80px;
+height:50px;             
+text-align:center;
+font-family:monospace;
+}
+article div class.acessorios+img>figcaption{
+display:grid;
+margin:12px;
+border:0px;
+padding:10px;
+font: 12px;
+font-family:monospace;
+}
+caption form dl{
+ display:auto;
+ padding:none;
+ border:1px;
+ margin:1px;
+ font-size:12px;
+}
+aside div class.mao{
+position:middle;
+float:center;
+padding:0px 25px 50px 100px;
+margin:-1px;
+border:1px;
+height:100px;
+width:280px; 
+}
+aside div class.mao>img {
+width:280px;
+height:100px;
+}
+aside div class.video>url{
+position:middle;
+float:center;
+animation-play-state:running;
+margin:2px;
+border:2px;
+width:200px;
+height:150px;
+padding-top:40px;
+padding-right:80px;
+padding-bottom:40px;
+padding-left:80px;
+}
+footer address p{
+padding-top:1px;
+padding-right:2px;
+padding-bottom:1px;
+padding-left:2px;
+font:#000000;
+}
+aside div class.divulgar>div{
+display:grid;
+display:inline-block;
+position:middle;
+float:center;
+padding:40px 90px 40px 90px;
+margin:1px;
+border:0px;
+}
+footer{
+width:100%;
+height:60px;
+position:fixed;
+bottom:2px;
+left:2px;
+}
