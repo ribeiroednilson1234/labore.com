@@ -14,11 +14,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          <distributionManagement>
+<distributionManagement>
    <repository>
      <id>github</id>
      <name>GitHub ribeiroednilson123/ Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/ribeiroednilson123/Labore.com</url>
    </repository>
 </distributionManagement>
-mvn install
