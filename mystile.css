@@ -1,0 +1,137 @@
+AuthName "mystile"
+AuthType Basic
+require valid-user
+AuthUserFile var/www/html
+body{
+background-color:none;
+margin:2px;
+border:2px;
+}
+header h1{
+margin:0px;
+border:0px;
+padding:10px;
+}
+section {
+font-size:16px;
+position:middle;
+}
+article.operarios{
+background-color:#C0C0C0;
+display:grid;
+grid-template-columns:1, 1fr;
+grid-auto-rows:minmax(10px, 11fr);
+position:middle;
+font-size:10px;  
+font-family:monospace;
+padding:-10px;
+margin:1px;
+border:1px;
+}
+section article.operarios>li{
+display:grid;
+grid-template-columns:11, 1fr;
+grid-auto-rows:minmax(10px, 11fr);
+float:left;
+margin:1px;
+border:1px;
+padding:10px;
+}
+section article div class.paragrafos>p{
+float:none;
+font-family:monospace;
+font-size:14px; 
+font:#000000;
+}
+section article div class.figuras+img>figcaption{
+display:grid;
+grid-template-columns:4, 1fr;
+grid-auto-rows:minmax(60px, 4fr);
+display:inline-block;
+position:middle;
+padding:60px;
+margin:0px;
+border:0px;
+width:160px;
+height:129px;             
+text-align:center;
+font-family:monospace;
+}
+article div class.acessorios>img{
+display:grid;
+grid-template-columns:repeat(6, 1fr);
+grid-auto-rows:minmax(60px; 6fr);
+display:inline;
+position:middle;
+padding:60px;
+margin:0px;
+border:0px;
+width:80px;
+height:50px;             
+text-align:center;
+font-family:monospace;
+}
+article div class.acessorios+img>figcaption{
+display:grid;
+grid-template-columns:repeat(6, 1fr);
+grid-auto-rows:repeat(12px, 6fr);
+margin:1px;
+border:0px;
+padding:10px;
+font: 12px;
+font-family:monospace;
+}
+caption form dl{
+ display:auto;
+ padding:none;
+ border:1px;
+ margin:1px;
+ font-size:12px;
+}
+aside div class.mao{
+display:grid;
+position:middle;
+padding:0px 25px 50px 100px;
+margin:-1px;
+border:1px;
+height:100px;
+width:280px; 
+}
+aside div class.mao>img {
+width:280px;
+height:100px;
+}
+aside div class.video>url{
+position:middle;
+animation-play-state:running;
+margin:2px;
+border:2px;
+width:200px;
+height:150px;
+padding-top:40px;
+padding-right:80px;
+padding-bottom:40px;
+padding-left:80px;
+}
+footer address p{
+padding-top:1px;
+padding-right:2px;
+padding-bottom:1px;
+padding-left:2px;
+font:#000000;
+}
+aside div class.divulgar>div $('div + *'){
+display:grid;
+grid-template-columns:no(3, 1fr);
+grid-template-rows:minmax(40px, 3fr);
+padding:40px 90px 40px 90px;
+margin:1px;
+border:0px;
+}
+footer{
+width:100%;
+height:60px;
+position:fixed;
+bottom:2px;
+left:2px;
+}
