@@ -20,6 +20,7 @@ jobs:
      <name>GitHub ribeiroednilson1234/ Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/ribeiroednilson1234/Labore.com</url>
    </repository>
+
 </distributionManagement>
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -29,7 +30,6 @@ jobs:
   <activeProfiles>
     <activeProfile>github</activeProfile>
   </activeProfiles>
-
   <profiles>
     <profile>
       <id>github</id>
@@ -48,7 +48,6 @@ jobs:
       </repositories>
     </profile>
   </profiles>
-
   <servers>
     <server>
       <id>github</id>
@@ -57,3 +56,10 @@ jobs:
     </server>
   </servers>
 </settings>
+<dependencies>
+ <dependency>
+    <groupId>com.example</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </dependency>
+</dependencies>
