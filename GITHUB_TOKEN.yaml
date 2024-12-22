@@ -58,3 +58,4 @@ jobs:
     <servers>mvn install</servers>
   </dependency>
 </dependencies>
+mvn install
