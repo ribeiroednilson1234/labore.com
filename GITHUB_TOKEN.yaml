@@ -57,7 +57,7 @@ jobs:
 </settings>
 <dependencies>
  <dependency>
-    <groupId>com.example</groupId>
+    <groupId>com.Labore:test</groupId>
     <artifactId>test</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </dependency>
