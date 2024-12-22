@@ -55,6 +55,6 @@ jobs:
     <groupId>com.example</groupId>
     <artifactId>test</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <servers>mvn install</servers>
   </dependency>
-  </mvn install>
 </dependencies>
