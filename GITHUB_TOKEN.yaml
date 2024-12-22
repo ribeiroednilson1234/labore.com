@@ -20,7 +20,6 @@ jobs:
      <name>GitHub ribeiroednilson1234/ Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/ribeiroednilson1234/Labore.com</url>
    </repository>
-
 </distributionManagement>
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
