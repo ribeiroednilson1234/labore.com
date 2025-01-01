@@ -27,7 +27,7 @@ float:center;
 font-size:12px;  
 font-family:monospace;
 padding:15px 85px 15px 85px;
-margin:1px;
+margin-inline:2px;
 border:1px;
 }
 .operarios+ul>li{
@@ -37,7 +37,7 @@ grid-auto-columns:1, auto;
 display:inline;
 position:middle;
 float:center;
-margin:2px;
+margin-inline:2px;
 border:0px;
 padding:auto;
 }
